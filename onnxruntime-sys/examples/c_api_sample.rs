@@ -59,7 +59,7 @@ fn main() {
     //       Download it:
     //           curl -LO "https://github.com/onnx/models/raw/master/vision/classification/squeezenet/model/squeezenet1.0-8.onnx"
     //       Reference: https://github.com/onnx/models/tree/master/vision/classification/squeezenet#model
-    let model_path = std::ffi::OsString::from("squeezenet1.0-8.onnx");
+    let model_path = std::ffi::OsString::from("squeezenet1.0-12.onnx");
 
     #[cfg(target_family = "windows")]
     let model_path: Vec<u16> = model_path
